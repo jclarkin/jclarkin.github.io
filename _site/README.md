@@ -1,2 +1,0 @@
-jclarkin.github.io
-==================
