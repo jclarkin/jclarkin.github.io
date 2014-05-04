@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
 /*****************************************************************************/
 /*
 /* Common
@@ -14,7 +16,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px 'Varela Round's, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
