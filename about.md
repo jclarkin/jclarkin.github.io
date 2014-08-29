@@ -4,12 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a software craftsman, always trying to increase and improve both my understanding of the things we build as well as my ability to communicate those understandings.
 
-### More Information
+I have worn many labels, including...
 
-A place to include any other types of information that you'd like to include about yourself. 
+*   Developer (Junior, Senior, Java, Web, Automation, ...)
+*   <span style="line-height:1.5;">Leader (Team, Technical, Project, ...)</span>
+*   <span style="line-height:1.5;">Designer</span>
+*   Architect
+*   Tester
+I always wear aspects of these responsibilities regardless of formal title.
 
-### Contact me
+I aim to follow these practices:
 
-[email@domain.com](mailto:email@domain.com)
+*   [Principles of Software Craftsmanship](http://www.8thlight.com/principles)
+*   [Context Driven Testing](http://context-driven-testing.com/)
+*   [Agile Manifesto](http://agilemanifesto.org/) (but not necessarily Agile/Scrum Process)
