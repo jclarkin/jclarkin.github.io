@@ -1,0 +1,158 @@
+---
+layout: post
+title: JavaScript Unit Testing
+date: 2014-04-11 11:10:40.000000000 -04:00
+categories:
+- Testing
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpcom_is_markdown: '1'
+  _publicize_pending: '1'
+author: 
+---
+<p><i>Note: The recommendations I make in this report are specific to the contextual needs of my current team. Your mileage may vary :)</i></p>
+<h2>Summary</h2>
+<p>The goal of this research was to determine tools and techniques to empower developers in unit testing JavaScript applications. The research discovered that there are three distinct aspects of JS unit testing:</p>
+<ul>
+<li>Authoring checks: the means of writing the unit tests</li>
+<li>Executing scripts: the frameworks that execute the checks</li>
+<li>Reporting: displaying the execution results in a consistent and valued format</li>
+</ul>
+<p>For authoring, the recommendation is to use the <a href="http://chaijs.com/">Chai.js</a> library and to write checks in a behaviour driven development (BDD) format. For execution, the recommendation is to use <a href="http://visionmedia.github.io/mocha/#reporters">Mocha</a> as it has the most versatility to integrate into an existing Continuous Integration (CI) system. For reporting, the recommendation is to either use <a href="http://www.sonarqube.org/">SonarQube</a> if looking for tracking history and other code quality metrics, or to create a custom reporter that suits the team’s needs.</p>
+<h2>Authoring Checks</h2>
+<p>As is typical in the JavaScript world, given any one need there exists many similar libraries and frameworks to solve the problem. This remains true for unit test helpers. To further conflate selection, some libraries offer both authorship and execution in a single framework (see Table 1).</p>
+<p>The largest dichotomy between library selections is the supported writing style: do you want checks to be written as asserts (typically labelled at TDD for Test Driven Development) or as describing behaviour (BDD). Assertions are the more traditional pattern (see Code 1), but behavioural is more readable enabling increased visibility of risk to Product Owners and Business Analysts (see Code 2).</p>
+<table style="border:1px solid black;">
+<tbody>
+<tr>
+<td>
+<img src="assets/JSUT-1.png" /><br />
+<em>Code Sample 1: TDD Style Unit Testing</em>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="border:1px solid black;">
+<tbody>
+<tr>
+<td>
+<img src="assets/JSUT-2.png" /><br />
+<em>Code Sample 2: BDD Style Unit Testing</em>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>The selection of libraries and frameworks is simplified by comparing these aspects (see Table 1).</p>
+<table style="border:1px solid black;">
+<thead>
+<tr>
+<td width="126"><strong>Name</strong></td>
+<td width="124"><strong>TDD Style</strong></td>
+<td width="124"><strong>BDD Style</strong></td>
+<td width="116"><strong>Authoring</strong></td>
+<td width="133"><strong>Execution</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="126"><strong>Chai.js</strong></td>
+<td width="124">Yes</td>
+<td width="124">Yes</td>
+<td width="116">Yes</td>
+<td width="133">No</td>
+</tr>
+<tr>
+<td width="126"><strong>QUnit</strong></td>
+<td width="124">Yes</td>
+<td width="124">No</td>
+<td width="116">Yes</td>
+<td width="133">Yes</td>
+</tr>
+<tr>
+<td width="126"><strong>Jasmine</strong></td>
+<td width="124">No</td>
+<td width="124">Yes</td>
+<td width="116">Yes</td>
+<td width="133">Yes</td>
+</tr>
+<tr>
+<td width="126"><strong>Unit.js</strong></td>
+<td width="124">Yes</td>
+<td width="124">Yes</td>
+<td width="116">Yes</td>
+<td width="133">No</td>
+</tr>
+<tr>
+<td width="126"><strong>Mocha</strong></td>
+<td width="124">No</td>
+<td width="124">No</td>
+<td width="116">No</td>
+<td width="133">Yes</td>
+</tr>
+<tr>
+<td width="126"><strong>Test Swarm</strong></td>
+<td width="124">No</td>
+<td width="124">No</td>
+<td width="116">No</td>
+<td width="133">Yes</td>
+</tr>
+<tr>
+<td width="126"><strong>Buster.js</strong></td>
+<td width="124">Yes</td>
+<td width="124">Yes</td>
+<td width="116">Yes</td>
+<td width="133">Yes</td>
+</tr>
+<tr>
+<td width="126"><strong>Intern.io</strong></td>
+<td width="124">No</td>
+<td width="124">No</td>
+<td width="116">No</td>
+<td width="133">Yes</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><em>Table 1: JavaScript Unit Test Frameworks Compared</em></p>
+<p>Basing a choice on the “<a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility Principle</a>” a framework focused on authoring was recommended: <strong>Chai.js</strong>. It is versatile, supporting both TDD and BDD coding styles. It is well supported online. Most importantly, checks written using it can easily be ported to another library if so desired.</p>
+<h2>Executing Scripts</h2>
+<p>&nbsp;</p>
+<p>With authoring selected, the next aspect to be solved is execution of these unit test scripts. There are two primary scenarios for execution: developers verifying their programs and systems (continuous integration) checking for unexpected impacts to the system.</p>
+<p>&nbsp;</p>
+<p>To enable developers to verify their creations, keeping a simple workflow for execution is desired. Most Test Executors have a server based aspect (like running on a Node.js server), as well as browser based execution. The authoring of a browser executor should be intuitive for developers (see Code 3).</p>
+<p>&nbsp;</p>
+<p>For integrating to a system, it must support command-line execution, and offer outputs that can be fed to a reporting solution.<br />
+&nbsp;</p>
+<table style="border:1px solid black;">
+<tbody>
+<tr>
+<td>
+<img src="assets/JSUT-3.png" /><br />
+<em>Code Sample 3: Mocha Test Executor</em>
+</td>
+</tr>
+</tbody>
+</table>
+<p>For similar reasons as the selection of authoring tools, <strong>Mocha</strong> is recommended. It is well supported, and it would easy to port a solution to another executor if ever needed. Also, it offers the most execution output options of the frameworks considered.</p>
+<h2>Reporting Results</h2>
+<p>Surprisingly, there are not a lot of Off-the-Shelf reporting tools for unit tests (or other automated checks) nor report output formats. There are generally two reporting formats with spotty support: <a href="http://en.wikipedia.org/wiki/Test_Anything_Protocol">TAP</a> and <a href="http://stackoverflow.com/questions/442556/spec-for-junit-xml-output">XUnit</a>. Similarly, for reporting tools, only these three options were found: <a href="http://www.sonarqube.org/">SonarQube</a>, <a href="http://sourceforge.net/projects/testlink/">TestLink</a>, and <a href="http://sourceforge.net/projects/smolder/">Smolder</a>.</p>
+<p>&nbsp;</p>
+<p>Both Smolder and TestLink are focused on content management of test specifications, plans, and requirements. SonarQube is focused on code analysis and reporting metrics that may indicate overall product quality. For reporting, if already using one of these tools, it is worth investigating the results of integrating JavaScript unit tests. However, it may be overkill for some teams and may be difficult to migrate to a different future solution if keeping the report history is important.</p>
+<p>&nbsp;</p>
+<p>Since Mocha offers output in both TAP and XUnit, it could be sufficient to build a custom reporting tool that processes these outputs and displays the state of all checks. If the goal is to never leave checks failing, a custom reporter would be a better choice. It would be designed to only display information relevant to the team (see Image 1).<br />
+&nbsp;</p>
+<table style="border:1px solid black;">
+<tbody>
+<tr>
+<td>
+<img src="assets/JSUT-4.png" /><br />
+<em>Image 1: Custom Domain-based Unit Test Reporter</em>
+</td>
+</tr>
+</tbody>
+</table>

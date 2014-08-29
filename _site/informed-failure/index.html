@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>404 - Page not found – Jonathan Clarkin – Canadian Software Craftsman</title>
+    <title>Week 4 - Informed Failure – Jonathan Clarkin – Canadian Software Craftsman</title>
 
     <meta name="author" content="Jonathan Clarkin" />
     <meta name="description" content="Canadian Software Craftsman">
@@ -41,18 +41,40 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
-  
-  <h1>404 - Page not found</h1>
+      <article class="post">
+  <h1>Week 4 - Informed Failure</h1>
 
   <div class="entry">
-    <p>Sorry, we can’t find that page that you’re looking for. You can try take for a look by going <a href="/">back to the homepage</a>.</p>
-
-<p><a href="/"><img src="/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;" /></a></p>
+    <p>I worked on a new tool for Selenium JUnit testing: video recording of test execution. There are some good articles on how to utilize Monte Media Library for Java to add recording to your code. However, I did not see anything that took advantage of <a href="http://junit.org/">JUnit 4</a> functionality, such as <a href="https://github.com/junit-team/junit/wiki/Rules">Rules</a>. Therefore, I have married the two together into a custom rule that lets you specify on which TestResult conditions to record a video: Success, Failure, or Error.</p>
+<p><span style="line-height:1.5em;">The goal of this tool is to make it faster to diagnose why a check has failed. The sooner information is provided to a stakeholder, the greater the value. I am guessing that check failure is either an indication of broken value in the product, or broken checking. Having videos to compare against a known working state will be handy.</span></p>
+<p>I imagine this may be useful for other Selenium users, so here is the gist:</p>
+<p>https://gist.github.com/jclarkin/5fe969ce98d4890c89dc</p>
+<p>Thanks goes to <a href="http://www.randelshofer.ch/monte/">Monte Media Library</a>  and <a href="http://roadtoautomation.blogspot.ca/2013/03/screen-recording-video-of-java-webdiver.html">Road to Automation</a> for the tools to solve my problem.</p>
 
   </div>
-</article>
 
+  <div class="date">
+    Written on February 15, 2014
+  </div>
+
+  
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+    
+	    var disqus_shortname = 'jclarkin'; 
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
     </div>
 
     <div class="wrapper-footer">

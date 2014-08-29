@@ -3,29 +3,131 @@
   
   
   <url>
-    <loc>/Hello-World/</loc>
-    <lastmod>2014-03-03T00:00:00-05:00</lastmod>
+    <loc>http://jclarkin.github.io/running-a-retrospective/</loc>
+    <lastmod>2014-08-15T07:41:25-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/recent-reading-agile-test-quadrants/</loc>
+    <lastmod>2014-07-25T07:13:18-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/context-drive-testing-the-awakening/</loc>
+    <lastmod>2014-05-26T19:42:21-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/classification-of-software-features/</loc>
+    <lastmod>2014-04-25T20:04:12-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/heuristic-for-selecting-a-trainer/</loc>
+    <lastmod>2014-04-14T10:08:42-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/javascript-unit-testing/</loc>
+    <lastmod>2014-04-11T11:10:40-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/research-session-reporting-outputs-of-automation/</loc>
+    <lastmod>2014-04-01T08:34:09-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/research-session-js-ut-experimentation/</loc>
+    <lastmod>2014-03-21T15:18:08-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/research-session-javascript-unit-testing/</loc>
+    <lastmod>2014-03-12T11:11:49-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/test-sessions-research-sessions/</loc>
+    <lastmod>2014-03-10T16:29:21-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/cast-2014/</loc>
+    <lastmod>2014-02-25T21:20:09-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/virtual-and-physical/</loc>
+    <lastmod>2014-02-23T07:00:25-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/informed-failure/</loc>
+    <lastmod>2014-02-15T20:57:30-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/gathers-no-moss/</loc>
+    <lastmod>2014-02-07T22:31:45-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/apis-with-context/</loc>
+    <lastmod>2014-01-30T12:20:56-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/changing-gears/</loc>
+    <lastmod>2014-01-24T02:40:22-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/learning-and-assimilating/</loc>
+    <lastmod>2014-01-18T01:51:30-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://jclarkin.github.io/adventures-in-test-automation-land/</loc>
+    <lastmod>2014-01-08T12:47:05-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   
   <url>
-    <loc>/404.html</loc>
-    <lastmod>2014-08-28T19:44:25-04:00</lastmod>
+    <loc>http://jclarkin.github.io/404.html</loc>
+    <lastmod>2014-08-28T23:14:03-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2014-08-28T19:44:25-04:00</lastmod>
+    <loc>http://jclarkin.github.io/about/</loc>
+    <lastmod>2014-08-28T23:14:03-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2014-08-28T19:44:25-04:00</lastmod>
+    <loc>http://jclarkin.github.io/</loc>
+    <lastmod>2014-08-28T23:14:03-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

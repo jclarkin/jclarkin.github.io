@@ -1,0 +1,19 @@
+---
+layout: post
+title: Week 4 - Informed Failure
+date: 2014-02-15 20:57:30.000000000 -05:00
+categories:
+- Testing
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _publicize_pending: '1'
+author: 
+---
+<p>I worked on a new tool for Selenium JUnit testing: video recording of test execution. There are some good articles on how to utilize Monte Media Library for Java to add recording to your code. However, I did not see anything that took advantage of <a href="http://junit.org/">JUnit 4</a> functionality, such as <a href="https://github.com/junit-team/junit/wiki/Rules">Rules</a>. Therefore, I have married the two together into a custom rule that lets you specify on which TestResult conditions to record a video: Success, Failure, or Error.</p>
+<p><span style="line-height:1.5em;">The goal of this tool is to make it faster to diagnose why a check has failed. The sooner information is provided to a stakeholder, the greater the value. I am guessing that check failure is either an indication of broken value in the product, or broken checking. Having videos to compare against a known working state will be handy.</span></p>
+<p>I imagine this may be useful for other Selenium users, so here is the gist:</p>
+<p>https://gist.github.com/jclarkin/5fe969ce98d4890c89dc</p>
+<p>Thanks goes to <a href="http://www.randelshofer.ch/monte/">Monte Media Library</a>  and <a href="http://roadtoautomation.blogspot.ca/2013/03/screen-recording-video-of-java-webdiver.html">Road to Automation</a> for the tools to solve my problem.</p>

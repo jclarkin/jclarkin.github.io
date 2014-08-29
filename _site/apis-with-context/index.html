@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>404 - Page not found – Jonathan Clarkin – Canadian Software Craftsman</title>
+    <title>Week 2 - APIs With Context – Jonathan Clarkin – Canadian Software Craftsman</title>
 
     <meta name="author" content="Jonathan Clarkin" />
     <meta name="description" content="Canadian Software Craftsman">
@@ -41,18 +41,50 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
-  
-  <h1>404 - Page not found</h1>
+      <article class="post">
+  <h1>Week 2 - APIs With Context</h1>
 
   <div class="entry">
-    <p>Sorry, we can’t find that page that you’re looking for. You can try take for a look by going <a href="/">back to the homepage</a>.</p>
-
-<p><a href="/"><img src="/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;" /></a></p>
+    <p>This week was spent gaining context on APIs. Questions such as:</p>
+<ul>
+<li>Who are the consumers of the APIs</li>
+<li>What is the minimum viable check we want in place for a single API</li>
+<li>What checks are currently being created by developers</li>
+<li>What aspects of the <a href="http://www.testinggeek.com/testing-restful-webservices-or-api-testing-remember-papas-be-sfo-deed-help-gc-and-dvla-pc">API Checklist</a> are of value to a specific group</li>
+<li>What ways can we black box test an API</li>
+<li>What ways do we want to white box check the API</li>
+</ul>
+<p>We created a diagram of the parts of the white box API framework<br />
++ which layers are being checked via JUnit<br />
++ who are the authors of each layer of checks</p>
+<p>This gave me a better understanding of the direction of functionally verifying our API. So the majority of my week was experimentation. My goal was to make it easier for developers to author JUnit checks. My petri dishes are being reviewed, and the results are in the mail :)</p>
+<p>There are still a lot of unexplored territory, especially around API consumability. Next week we're going to mindmap what we think we know, and what we think we need to know. That should help give focus to our efforts.</p>
+<p>I suspect that communicating our gathered information might be a key next step.</p>
 
   </div>
-</article>
 
+  <div class="date">
+    Written on January 30, 2014
+  </div>
+
+  
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+    
+	    var disqus_shortname = 'jclarkin'; 
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
     </div>
 
     <div class="wrapper-footer">

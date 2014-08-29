@@ -6,7 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>404 - Page not found – Jonathan Clarkin – Canadian Software Craftsman</title>
+    <title>Classification of Software Features – Jonathan Clarkin – Canadian Software Craftsman</title>
 
     <meta name="author" content="Jonathan Clarkin" />
     <meta name="description" content="Canadian Software Craftsman">
@@ -41,18 +41,45 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
-  
-  <h1>404 - Page not found</h1>
+      <article class="post">
+  <h1>Classification of Software Features</h1>
 
   <div class="entry">
-    <p>Sorry, we can’t find that page that you’re looking for. You can try take for a look by going <a href="/">back to the homepage</a>.</p>
-
-<p><a href="/"><img src="/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;" /></a></p>
+    <p>I typically hear two categories for software features: internal and external. Occasionally, from the development side, I hear of a third option: deprecated. I am proposing a fourth category, that I often find in enterprise software that I would call <em>vestigial</em>.</p>
+<p>Here are my four categories defined:</p>
+<ul>
+<li><strong>External Feature</strong>: These are solutions for customer needs. They should produce value to the buyers of the software.</li>
+<li><strong>Internal Features</strong>: These are solutions for the company that produces the software. They reduce costs of maintaining and improving the software.</li>
+<li><strong>Deprecated Features</strong>: These are solutions once targeted internally or externally that are known to no longer produce significant value to keep. The are technical debt that is clearly flagged for removal.</li>
+<li><strong>Vestigial Features</strong>: These are a mystery. They likely were once solutions to someone, or at least intended to be so. Their current value is unknown and cannot be flagged for deprecation. They are technical debt with no mitigation strategy.</li>
+</ul>
+<p>A <em>vestigial feature</em> is like the human appendix: maybe we don't need it anymore, but it remains part of our ecosystem. The tonsils were once vestigial until we learned more about them and determined their value.</p>
+<p>Does your enterprise software have many vestigial features? We can form a test strategy to determine their original intent, their current uses, and estimate their value.</p>
 
   </div>
-</article>
 
+  <div class="date">
+    Written on April 25, 2014
+  </div>
+
+  
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+    
+	    var disqus_shortname = 'jclarkin'; 
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</article>
     </div>
 
     <div class="wrapper-footer">
