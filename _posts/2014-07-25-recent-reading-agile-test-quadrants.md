@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recent Reading - Agile Test Quadrants
-date: 2014-07-25 07:13:18.000000000 -04:00
+date: 2014-07-25
 categories:
 - Testing
 tags: []

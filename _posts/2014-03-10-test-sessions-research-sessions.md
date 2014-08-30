@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Test Sessions - Research Sessions
-date: 2014-03-10 16:29:21.000000000 -04:00
+date: 2014-03-10
 categories:
 - Testing
 tags: []

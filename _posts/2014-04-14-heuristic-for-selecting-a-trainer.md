@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Heuristic for selecting a Trainer
-date: 2014-04-14 10:08:42.000000000 -04:00
+date: 2014-04-14
 categories:
 - Education
 tags: []

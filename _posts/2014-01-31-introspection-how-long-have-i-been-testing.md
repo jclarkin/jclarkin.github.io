@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introspection - How Long Have I Been Testing
-date: 2014-01-31 19:59:41.000000000 -05:00
+date: 2014-01-31
 categories:
 - Testing
 tags: []

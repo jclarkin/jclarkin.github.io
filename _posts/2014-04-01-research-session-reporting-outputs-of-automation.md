@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Session - Reporting Outputs of Automation
-date: 2014-04-01 08:34:09.000000000 -04:00
+date: 2014-04-01
 categories:
 - Testing
 tags: []

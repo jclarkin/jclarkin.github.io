@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JavaScript Unit Testing
-date: 2014-04-11 11:10:40.000000000 -04:00
+date: 2014-04-11
 categories:
 - Testing
 tags: []

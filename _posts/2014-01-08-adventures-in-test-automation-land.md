@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adventures in Test Automation Land
-date: 2014-01-08 12:47:05.000000000 -05:00
+date: 2014-01-08
 categories:
 - Testing
 tags: []

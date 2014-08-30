@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Week 1 - Changing Gears: Manual & Automatic'
-date: 2014-01-24 02:40:22.000000000 -05:00
+date: 2014-01-24
 categories:
 - Testing
 tags: []

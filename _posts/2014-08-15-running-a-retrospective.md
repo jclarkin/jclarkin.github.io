@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running a Retrospective
-date: 2014-08-15 07:41:25.000000000 -04:00
+date: 2014-08-15
 categories:
 - People
 tags: []

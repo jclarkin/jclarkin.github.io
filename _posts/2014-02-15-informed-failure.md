@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 4 - Informed Failure
-date: 2014-02-15 20:57:30.000000000 -05:00
+date: 2014-02-15
 categories:
 - Testing
 tags: []

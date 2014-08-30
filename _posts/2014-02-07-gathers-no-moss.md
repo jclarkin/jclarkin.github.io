@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 3 - ... Gathers No Moss
-date: 2014-02-07 22:31:45.000000000 -05:00
+date: 2014-02-07
 categories:
 - Testing
 tags: []

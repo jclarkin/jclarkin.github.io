@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 0 - Learning and Assimilating
-date: 2014-01-18 01:51:30.000000000 -05:00
+date: 2014-01-18
 categories:
 - Testing
 tags: []

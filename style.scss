@@ -7,6 +7,7 @@
 
 @import "_reset";
 @import "_variables";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -19,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 Open Sans, $helvetica;
   color: $darkGray;
 }
 
@@ -192,6 +193,7 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue; 
   font-weight: 300;
+  font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -265,6 +267,10 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.post > .date {
+   font-size: 0.8em;   
 }
 
 .wrapper-footer {

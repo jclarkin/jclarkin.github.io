@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 2 - APIs With Context
-date: 2014-01-30 12:20:56.000000000 -05:00
+date: 2014-01-30
 categories:
 - Testing
 tags: []

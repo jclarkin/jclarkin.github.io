@@ -1,6 +1,7 @@
 /***************/
 /* MEYER RESET */
 /***************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,7 +66,7 @@ html {
 
 body {
   background: #fff;
-  font: 18px/1.4 Helvetica, Arial, sans-serif;
+  font: 18px/1.4 Open Sans, Helvetica, Arial, sans-serif;
   color: #333;
 }
 
@@ -233,6 +234,7 @@ img {
   cursor: pointer;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-weight: bold;
   font-size: 28px;
   letter-spacing: 1px;
 }
@@ -300,6 +302,10 @@ nav a {
 .post .read-more {
   text-transform: uppercase;
   font-size: 15px;
+}
+
+.post > .date {
+  font-size: 0.8em;
 }
 
 .wrapper-footer {

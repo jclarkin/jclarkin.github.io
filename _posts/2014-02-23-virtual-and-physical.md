@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtual and Physical
-date: 2014-02-23 07:00:25.000000000 -05:00
+date: 2014-02-23
 categories:
 - Testing
 tags: []

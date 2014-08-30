@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Session - JS UT Experimentation
-date: 2014-03-21 15:18:08.000000000 -04:00
+date: 2014-03-21
 categories:
 - Testing
 tags: []

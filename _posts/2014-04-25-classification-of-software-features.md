@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Classification of Software Features
-date: 2014-04-25 20:04:12.000000000 -04:00
+date: 2014-04-25
 categories:
 - Coding
 tags: []

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Session - Javascript Unit Testing
-date: 2014-03-12 11:11:49.000000000 -04:00
+date: 2014-03-12
 categories:
 - Testing
 tags: []

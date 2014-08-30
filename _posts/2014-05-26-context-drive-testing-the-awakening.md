@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Context Drive Testing - The Awakening
-date: 2014-05-26 19:42:21.000000000 -04:00
+date: 2014-05-26
 categories:
 - Testing
 tags: []
