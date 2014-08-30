@@ -24,7 +24,6 @@ This week was spent gaining context on APIs. Questions such as:
 We created a diagram of the parts of the white box API framework
 
 + which layers are being checked via JUnit
-
 + who are the authors of each layer of checks
 
 This gave me a better understanding of the direction of functionally verifying our API. So the majority of my week was experimentation. My goal was to make it easier for developers to author JUnit checks. My petri dishes are being reviewed, and the results are in the mail :)
