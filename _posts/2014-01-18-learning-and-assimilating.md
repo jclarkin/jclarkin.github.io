@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 0 - Learning and Assimilating
+title: Learning and Assimilating "Testing"
 date: 2014-01-18
 categories:
 - Testing

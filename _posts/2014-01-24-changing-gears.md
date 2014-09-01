@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Week 1 - Changing Gears: Manual & Automatic'
+title: 'Changing Gears: Manual & Automatic'
 date: 2014-01-24
 categories:
 - Testing

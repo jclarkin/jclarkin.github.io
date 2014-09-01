@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 2 - APIs With Context
+title: APIs With Context
 date: 2014-01-30
 categories:
 - Testing
