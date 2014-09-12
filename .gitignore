@@ -9,6 +9,7 @@ pids
 
 # Jekyll generated content
 _site/
+.sass-cache/
 
 # OSX
 .DS_Store
