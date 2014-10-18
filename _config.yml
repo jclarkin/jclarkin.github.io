@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 
+## Command to remember
+# jekyll serve --watch
+
 # Name of your site (displayed in the header)
 name: Jonathan Clarkin
 
