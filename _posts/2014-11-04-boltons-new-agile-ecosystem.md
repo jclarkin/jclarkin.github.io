@@ -67,16 +67,16 @@ Bolton points out that having _Manual_ vs. _Automated_ in the quadrants is disin
 
 From there, he lists the cycle of agile development (though, like all theories, reality is less procedural):
 
-* Discover  - Something worth building
-* Build     - Some of it
-* Refactor  - To enable future change
-* Study     - The current "end result"
-* ...   Repeat !
+* _Discover_: Something worth building
+* _Build_: Some of it
+* _Refactor_: To enable future change
+* _Study_: The current "end result"
+* ...   *Repeat* !
 
 He makes many interesting observations about the role of testing, and the multifaceted job of a tester within this cycle, pointing out some key polarities:
-- Analyzing vs. creating the product
-- Trading value to customer vs. cost to develop
-- Focusing on the success vs. risks to the product
+* Analyzing vs. creating the product
+* Trading value to customer vs. cost to develop
+* Focusing on the success vs. risks to the product
 
 That last point is raised as a central character difference between the tester and developer role; the builder mindset focuses on the paths to success while the tester mindset is focused on finding risks.
 
