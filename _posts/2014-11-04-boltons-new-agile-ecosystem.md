@@ -9,9 +9,7 @@ status: publish
 type: post
 published: true
 ---
-# A New Agile Testing Ecosystem
-
-I have often made reference to the Agile Quadrants model to help explain different modes of testing, and how automation is just a part of a larger domain of testing.
+I often make reference to the Agile Quadrants model to help explain different modes of testing, and how automation is just a part of a larger domain of testing.
 
 > "Essentially, all models are wrong, but some are useful" 
 >
