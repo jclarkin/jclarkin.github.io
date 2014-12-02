@@ -105,4 +105,4 @@ The Forbes article hints at a need for clear buy-in from employees and transpare
 
 There is a fine balance between following a formulaic process to maximize effectivity of resources versus creating a corporate culture that fosters its members to achieve their maximum potential. There is room in the ecosystem of businesses for both paths to be followed, as we watch Darwinism select which will evolve and prosper. With greater awareness of corporate cultures and market viability for job switching, employees can choose which type of employer they want to work for. 
 
-My preference is for a workplace that emphasizes the 'Human' in Human Resources, and where a team can both succeed or fail as a collective of high-functioning dependent peers. Given a choice: I choose against stack ranking.
+My preference is for a workplace that emphasizes the 'Human' in Human Resources, and where a team can both succeed or fail as a collective of high-functioning dependent peers. Given a choice: I choose against stack ranking. I am happy that this is the year my employer is finally willing to give up this particular practice.
