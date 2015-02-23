@@ -26,7 +26,7 @@ After some levity about the awkwardness of this meeting, the first activity bega
 
 ![Team Work](../assets/PeriMortem-Team.jpg)
 
-Once all the sticky-notes were posted on the wall, the team timeboxed 5 minutes to organize, categorize, and remove duplicates.
+Once all the sticky-notes were posted on the wall, the team time-boxed 5 minutes to organize, categorize, and remove duplicates.
 
 ![Ideation](../assets/PeriMortem-Ideation.jpg)
 
@@ -50,11 +50,11 @@ The top skills are:
 * Positive morale
 * Introduces new practices to the team
 
-We iterated on the Morale item as it was vague and difficult to identify in a new hire. We replaced it with _Personality_ focusing on _good communicating & teaching_ and _passionate about software craftsmanship_.
+We iterated on the _Morale_ item as it was vague and difficult to identify in a new hire. We replaced it with _Personality_ focusing on _good communicating & teaching_ and _passionate about software craftsmanship_
 
 ![Skills Refined](../assets/PeriMortem-SkillsRefined.jpg)
 
-We discussed if there are people we already knew that might make good additions to the team.
+We discussed if there are people we already knew that might make good additions to the team. 
 
 > _"If you don't try you have already failed"_
 
