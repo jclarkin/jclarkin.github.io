@@ -1,3 +1,8 @@
+[![Code Climate](https://codeclimate.com/github/jclarkin/jclarkin.github.io/badges/gpa.svg)](https://codeclimate.com/github/jclarkin/jclarkin.github.io)
+[![Known Vulnerabilities](https://snyk.io/test/github/jclarkin/jclarkin.github.io/badge.svg)](https://snyk.io/test/github/jclarkin/jclarkin.github.io)
+
+
+
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
